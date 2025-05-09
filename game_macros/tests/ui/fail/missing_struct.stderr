@@ -1,0 +1,7 @@
+error: proc-macro derive panicked
+ --> tests/ui/fail/missing_struct.rs:3:10
+  |
+3 | #[derive(FieldIter)]
+  |          ^^^^^^^^^
+  |
+  = help: message: FieldIter only works on structs with named fields
